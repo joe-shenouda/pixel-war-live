@@ -1,0 +1,17 @@
+{
+  "name": "pixel-art-live-relay",
+  "version": "1.0.0",
+  "description": "GunDB Relay for Pixel Art Live",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "gun": "^0.2020.1239",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}
